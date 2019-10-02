@@ -16,6 +16,7 @@ $footerHeight: 3rem;
 html, body {
   height: 100%;
   border: 0;
+  overflow: hidden;
 }
 
 body {
@@ -33,17 +34,16 @@ header {
   max-width: $maxWidth;
   background-color: $mainBackgroundColor;
   margin: auto;
-  min-height: 100%;
+  // min-height: 100%;
+  overflow: auto;
 
   section {
     padding: 1rem;
-    min-height: 100%;
   }
 
   // header
   .header {
     text-align: center;
-    margin-bottom: 1rem;
     color: wheat;
 
     .title {
@@ -51,6 +51,14 @@ header {
       font-size: 3rem;
     }
     .subtitle {}
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: $maxWidth;
+    height: $footerHeight;
+    background-color: $footerColor;
   }
 
   .menu {
