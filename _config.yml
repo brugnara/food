@@ -20,7 +20,7 @@
 
 title: Your awesome title
 email: your-email@example.com
-description: Un blog senza zuccheri
+description: Test jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: it-IT
@@ -30,9 +30,6 @@ theme:
 plugins:
 sass:
     style: compressed
-
-style:
-  maxwidth: 766px    
 
 # Exclude from processing.
 # The following items will not be processed, by default.

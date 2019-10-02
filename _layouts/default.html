@@ -1,44 +1,21 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
-
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no">
+{% include head.html %}
   </head>
   <body>
     <div class="content">
-      {% include header.html %}
-      {% include menu.html %}
+{% include header.html %}
+{% include menu.html %}
 
-      <div id="banner">
-        <ul>
-          <li>menu 1</li>
-        </ul>
-      </div>
+<section>
+{{ content }}
+</section>
 
-      <section>
-        {{ content }}
-      </section>
-
-      {% if site.google_analytics %}
-        {% include google_analytics.html %}
-      {% endif %}
-      {% include footer.html %}
+{% if site.google_analytics %}
+  {% include google_analytics.html %}
+{% endif %}
+{% include footer.html %}
     </div>
   </body>
 </html>

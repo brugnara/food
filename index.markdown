@@ -5,14 +5,14 @@
 layout: default
 ---
 
-# aa
-
-## test
-
 <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      <div>
+{{ post.excerpt }}
+{{ post.ciccio }}
+      </div>
     </li>
   {% endfor %}
 </ul>

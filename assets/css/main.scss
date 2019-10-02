@@ -1,7 +1,13 @@
 ---
 ---
 
-$maxWidth: {{ site.style.maxwidth }};
+$maxWidth: 766px;
+// main
+$mainColor: brown;
+$mainBackgroundColor: white;
+// footer
+$footerColor: red;
+$footerHeight: 3rem;
 
 @import "footer.scss";
 
@@ -13,16 +19,45 @@ html, body {
 }
 
 body {
-  background: url("/assets/img/pasta.jpg") no-repeat fixed center;
+  background: url("/assets/img/italian-cuisine.jpg") no-repeat fixed center;
+  background: url("/assets/img/infografica.jpg") no-repeat fixed center;
   background-size: cover;
+  font-size: 8px;
+}
+
+header {
+  text-align: center;
 }
 
 .content {
   max-width: $maxWidth;
+  background-color: $mainBackgroundColor;
   margin: auto;
-}
+  min-height: 100%;
 
-// header
-.header {
-  text-align: center;
+  section {
+    padding: 1rem;
+    min-height: 100%;
+  }
+
+  // header
+  .header {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: wheat;
+
+    .title {
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 3rem;
+    }
+    .subtitle {}
+  }
+
+  .menu {
+    background-color: $mainColor;
+
+    * {
+      background-color: $mainColor;
+    }
+  }
 }
