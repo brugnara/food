@@ -10,8 +10,7 @@ layout: default
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <div>
-{{ post.excerpt }}
-{{ post.ciccio }}
+{% include preview_block.html post=post %}
       </div>
     </li>
   {% endfor %}

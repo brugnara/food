@@ -3,7 +3,7 @@ layout: default
 title:  "Welcome to Jekyll!"
 date:   2019-10-01 09:06:51 +0200
 categories: update
-ciccio: lina
+img: lina
 ---
 
 test excerpt
