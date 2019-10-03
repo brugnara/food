@@ -61,7 +61,7 @@ header {
   .menu {
     a {
       &.active {
-        background-color: black;
+        background-color: lighten($mainColor, 20%);
       }
     }
   }
