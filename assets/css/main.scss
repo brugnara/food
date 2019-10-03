@@ -34,17 +34,22 @@ header {
   max-width: $maxWidth;
   background-color: $mainBackgroundColor;
   margin: auto;
-  // min-height: 100%;
-  overflow: auto;
+  height: 100%;
 
-  section {
+  .section {
     padding: 1rem;
+    overflow: auto;
+    height: calc(100% - 12rem);
   }
 
   // header
   .header {
     text-align: center;
     color: wheat;
+
+    a {
+      color: inherit;
+    }
 
     .title {
       font-family: 'Big Shoulders Display', cursive;

@@ -5,13 +5,4 @@
 layout: default
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div>
-{% include preview_block.html post=post %}
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+{% include post_list.html posts=site.posts %}
