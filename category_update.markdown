@@ -1,6 +1,7 @@
 ---
 layout: default
 category: update
+permalink: /update/
 ---
 
 {% assign posts = site.posts | where_exp: "item", "item.categories[0] == page.category" %}

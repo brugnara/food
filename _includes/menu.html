@@ -1,6 +1,11 @@
 <header class="menu">
   {% for cat in site.categories %}
-    <a href="/{{ cat[0] }}.html" class="button">{{ cat[0] }}</a>
+    {% if page.category == cat[0] %}
+      {% assign active = 'active' %}
+    {% else %}
+      {% assign active = '' %}
+    {% endif %}
+    <a href="/{{ cat[0] }}/" class="button {{ active }}">{{ cat[0] }}</a>
   {% endfor %}
 </header>
 <!--

@@ -1,9 +1,14 @@
-<div class="row col-sm-6">
-  <div class="image">
-    <img src="{{ include.post.img }}">
+<div
+  class="card fluid"
+  onclick="window.location.href='{{ include.post.url }}'">
+  <div class="section">
+    {{ include.post.title }}
   </div>
-  <div class="preview">
-    <h1>{{ include.post.title }}</h1>
-    <h2>{{ include.post.excerpt }}</h2>
+  <img src="{{ include.post.img }}" class="section media">
+  <div class="section">
+    {{ include.post.excerpt }}
+  </div>
+  <div class="section">
+    extra details
   </div>
 </div>

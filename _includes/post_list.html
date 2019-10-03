@@ -1,10 +1,7 @@
-<ul>
-  {% for post in include.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div>
+<div class="row cols-sm-12 cols-md-4">
+{% for post in include.posts %}
+  <div class="posrrt">
 {% include preview_block.html post=post %}
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+  </div>
+{% endfor %}
+</div>

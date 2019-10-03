@@ -36,10 +36,10 @@ header {
   margin: auto;
   height: 100%;
 
-  .section {
+  .main {
     padding: 1rem;
     overflow: auto;
-    height: calc(100% - 12rem);
+    height: calc(100% - 15rem);
   }
 
   // header
@@ -58,6 +58,14 @@ header {
     .subtitle {}
   }
 
+  .menu {
+    a {
+      &.active {
+        background-color: black;
+      }
+    }
+  }
+
   .footer {
     position: fixed;
     bottom: 0;
@@ -72,5 +80,9 @@ header {
     * {
       background-color: $mainColor;
     }
+  }
+
+  .preview-block {
+
   }
 }
