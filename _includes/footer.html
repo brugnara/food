@@ -2,6 +2,7 @@
   <input type="text" id="search" placeholder="Cerca..."/>
   <div id="search-results"></div>
 </footer>
+
 <script>
 var divResults = document.querySelector('#search-results')
 var inputSearch = document.querySelector('#search')
@@ -10,7 +11,7 @@ console.log('Initing lunr.js')
 var documents = []
 {% for post in site.posts %}
 documents.push({
-  id: '{{ post.url }}',
+  url: '{{ post.url }}',
   title: '{{ post.title }}',
   text: `{{ post.excerpt }}`
 })
@@ -19,7 +20,7 @@ console.log(documents)
 
 // creating index
 window.idx = lunr(function() {
-  this.ref('id')
+  this.ref('url')
   this.field('title')
   this.field('text')
 
@@ -46,9 +47,10 @@ inputSearch.addEventListener('keyup', e => {
   var results = idx.search(['*', query, '*'].join(''))
 
   var mapped = results.map(result => {
-    var doc = documents.find(d => d.id == result.ref)
+    var doc = documents.find(d => d.url == result.ref)
     result.title = doc.title
     result.text = doc.text
+    result.url = doc.url
     return result
   })
 
@@ -63,10 +65,10 @@ inputSearch.addEventListener('keyup', e => {
     var a = document.createElement('a')
     var el = document.createElement('div')
     // a
-    a.href = result.id || result.ref
+    a.href = result.url || result.ref
     a.innerHTML = result.title
     // el
-    el.class = 'result'
+    el.classList.add('result')
     el.append(a)
     //
     divResults.append(el)

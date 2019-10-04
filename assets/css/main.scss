@@ -81,16 +81,24 @@ header {
         // visibility: hidden;
         position: fixed;
         height: 50%;
-        border: 1px solid red;
+        border-top: 1px solid lightgrey;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
         left: 0;
         right: 0;
         bottom: 4.5rem;
         background: white;
         .close {
-          color: red;
+          color: $mainColor;
           position: absolute;
           top: .5rem;
           right: 1rem;
+        }
+        .result {
+          text-align: left;
+          margin: .5rem;
+          border-bottom: 1px solid lightgrey;
+          padding-bottom: .5rem;
         }
       }
     }
