@@ -63,7 +63,7 @@ inputSearch.addEventListener('keyup', e => {
     var a = document.createElement('a')
     var el = document.createElement('div')
     // a
-    a.href = result.id
+    a.href = result.id || result.ref
     a.innerHTML = result.title
     // el
     el.class = 'result'
