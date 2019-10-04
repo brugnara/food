@@ -39,7 +39,7 @@ header {
   .main {
     padding: 1rem;
     overflow: auto;
-    height: calc(100% - 15rem);
+    height: calc(100% - 16rem);
   }
 
   // header
@@ -67,11 +67,33 @@ header {
   }
 
   .footer {
-    position: fixed;
-    bottom: 0;
-    width: $maxWidth;
-    height: $footerHeight;
+    max-width: $maxWidth;
     background-color: $footerColor;
+
+    footer {
+      text-align: center;
+      #search {
+        width: 100%;
+        margin: auto;
+      }
+      #search-results {
+        display: none;
+        // visibility: hidden;
+        position: fixed;
+        height: 50%;
+        border: 1px solid red;
+        left: 0;
+        right: 0;
+        bottom: 4.5rem;
+        background: white;
+        .close {
+          color: red;
+          position: absolute;
+          top: .5rem;
+          right: 1rem;
+        }
+      }
+    }
   }
 
   .menu {
