@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Un blog senza zuccheri aggiunti</title>
-    <link>http://example.org/tags/</link>
+    <link>https://food.brugnara.me/tags/</link>
     <description>Recent content in Tags on Un blog senza zuccheri aggiunti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Thu, 17 Oct 2019 17:41:43 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://food.brugnara.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>pippo</title>
-      <link>http://example.org/tags/pippo/</link>
+      <link>https://food.brugnara.me/tags/pippo/</link>
       <pubDate>Thu, 17 Oct 2019 17:41:43 +0200</pubDate>
       
-      <guid>http://example.org/tags/pippo/</guid>
+      <guid>https://food.brugnara.me/tags/pippo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sabaudo</title>
-      <link>http://example.org/tags/sabaudo/</link>
+      <link>https://food.brugnara.me/tags/sabaudo/</link>
       <pubDate>Thu, 17 Oct 2019 17:41:43 +0200</pubDate>
       
-      <guid>http://example.org/tags/sabaudo/</guid>
+      <guid>https://food.brugnara.me/tags/sabaudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>http://example.org/tags/development/</link>
+      <link>https://food.brugnara.me/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/development/</guid>
+      <guid>https://food.brugnara.me/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>http://example.org/tags/go/</link>
+      <link>https://food.brugnara.me/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/go/</guid>
+      <guid>https://food.brugnara.me/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>http://example.org/tags/golang/</link>
+      <link>https://food.brugnara.me/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/golang/</guid>
+      <guid>https://food.brugnara.me/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://example.org/tags/hugo/</link>
+      <link>https://food.brugnara.me/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/hugo/</guid>
+      <guid>https://food.brugnara.me/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>http://example.org/tags/templates/</link>
+      <link>https://food.brugnara.me/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/templates/</guid>
+      <guid>https://food.brugnara.me/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>http://example.org/tags/themes/</link>
+      <link>https://food.brugnara.me/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/themes/</guid>
+      <guid>https://food.brugnara.me/tags/themes/</guid>
       <description></description>
     </item>
     
