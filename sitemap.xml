@@ -78,12 +78,12 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/golang/</loc>
+    <loc>http://example.org/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/golang/</loc>
+    <loc>http://example.org/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
